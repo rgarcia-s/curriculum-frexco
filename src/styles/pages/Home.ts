@@ -11,7 +11,7 @@ export const Container = styled.div`
 export const Aside = styled.aside`
   height: 1400px;
   width: 320px;
-  margin: 40px 0;
+  margin: 40px 0 40px 36px;
   padding: 36px;
   background: #15b1fd;
 
@@ -34,15 +34,11 @@ export const Aside = styled.aside`
       margin-bottom: 8px;
     }
   }
-
-  .adress {
-    strong {
-    }
-  }
 `;
 
 export const Content = styled.div`
-  height: 1400px;
+  min-height: 1400px;
+  margin: 40px 36px 40px 0;
   max-width: 700px;
   padding: 36px;
   border-radius: 0 15px 15px 0;
