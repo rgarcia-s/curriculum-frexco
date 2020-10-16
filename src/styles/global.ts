@@ -9,10 +9,10 @@ export default createGlobalStyle`
 
   body {
     color: #121214;
-    background: #ebf2f5;
+    background: #f1f1f1;
   }
 
   body, input, button, textarea {
-    font: 600 18px Roboto, sans-serif;
+    font: 500 18px Roboto, sans-serif;
   }
 `;
