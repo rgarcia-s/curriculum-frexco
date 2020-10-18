@@ -6,10 +6,13 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  > div {
+    display: flex;
+  }
 `;
 
 export const Aside = styled.aside`
-  height: 1400px;
   width: 320px;
   margin: 40px 0 40px 36px;
   padding: 36px;
@@ -37,7 +40,8 @@ export const Aside = styled.aside`
 `;
 
 export const Content = styled.div`
-  min-height: 1400px;
+  display: flex;
+  flex-direction: column;
   margin: 40px 36px 40px 0;
   max-width: 700px;
   padding: 36px;
